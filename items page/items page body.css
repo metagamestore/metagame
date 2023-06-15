@@ -1,0 +1,316 @@
+.categories{
+    font-family: "Sen", sans-serif;
+    border: 3px rgb(27, 4, 56) solid;
+    background-image: linear-gradient( -40deg,  rgba(0,119,182,1) 1.6%, rgba(8,24,68,1) 98.4% );
+    border-radius: 10px;
+    
+    display: flex;
+    flex-flow: row wrap ;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    padding: 20px;
+    margin-top: 0px;
+    
+}
+
+.detG{
+    align-self: flex-start;
+    
+    
+}
+.detGP{
+    align-self: flex-start;
+    
+}
+.detP{
+    align-self: flex-start;
+    
+}
+
+.types{
+    text-shadow: 5px 5px 5px rgb(15, 212, 238);
+    padding-left: 40px;
+    line-height: 10px;
+}
+.types:hover{
+    color: rgb(20, 238, 20);
+    text-decoration: overline;
+    transition: 1s;
+}
+
+.detG:hover{
+    color: rgb(121, 206, 255);
+}
+.detGP:hover{
+    color: rgb(121, 206, 255);
+}
+.detP:hover{
+    color: rgb(121, 206, 255);
+}
+
+                                    /* items */
+
+.items{
+    padding: 10px;
+    padding-bottom: 60px;
+    
+    border-radius: 10px;
+    
+    row-gap: 50px;
+    background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}                                    
+.items div{
+    margin: 0px 10px;
+    border: 1px white solid;
+    background-repeat: no-repeat;
+    height: 200px;width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    
+}
+.items div:hover{
+    
+    background-size: 150px 150px;background-repeat: no-repeat;background-position: 0px -25px;
+    float: left;
+    translate: 0px -15px;
+    transition: .5s;
+    scale: 1.2;
+    
+}
+                              /* items background*/
+
+                                        /* gta v */
+.item1{
+    background-image: url(../fichier/Grand_Theft_Auto_V.png);background-size: 150px 200px;background-position: center;order: 1;
+}                              
+.item29{
+    background-image: url(../fichier/Grand_Theft_Auto_V.png);background-size: 150px 200px;background-position: center;order: 11;
+}                              
+.item30{
+    background-image: url(../fichier/Grand_Theft_Auto_V.png);background-size: 150px 200px;background-position: center;order: 12;
+}  
+
+                                        /* red dead 2 */
+.item2{
+    background-image: url(../fichier/reddead.png);background-size: 150px 200px;background-position: center;order: 20;
+}                              
+.item31{
+    background-image: url(../fichier/reddead.png);background-size: 150px 200px;background-position: center;order: 21;
+}   
+
+                                        /* fifa 23 */
+.item3{
+    background-image: url(../fichier/fifa-23.png);background-size: 150px 200px;background-position: center;order: 30;
+}                              
+.item32{
+    background-image: url(../fichier/fifa-23.png);background-size: 150px 200px;background-position: center;order: 31;
+}  
+
+                                        /* fortnite */
+.item4{
+    background-image: url(../fichier/Fortnite5-50.jpg);background-size: 150px 200px;background-position: center;order: 40;
+}                              
+.item27{
+    background-image: url(../fichier/Fortnite51-100.jpg);background-size: 150px 200px;background-position: center;order: 50;
+}                              
+.item28{
+    background-image: url(../fichier/Fortnite+100.jpg);background-size: 150px 200px;background-position: center;order: 60;
+}          
+
+                                        /* xbox account */
+.item5{
+    background-image: url(../fichier/xbox5-20game.jpg);background-size: 170px 200px;background-position: center;order: 70;
+}                              
+.item6{
+    background-image: url(../fichier/xbox+21game.jpg);background-size: 170px 200px;background-position: center;order: 80;
+}  
+
+                                        /* ps account */
+.item7{
+    background-image: url(../fichier/ps4-5-20-game.jpg);background-size: 200px 200px;background-position: center;order: 90;
+}                              
+.item8{
+    background-image: url(../fichier/ps4-+21-game.jpg);background-size: 200px 200px;background-position: center;order: 100;
+}    
+
+                                        /* pubg UC */
+.item9{
+    background-image: url(../fichier/Pubg--60--UC-.jpg);background-size: 150px 200px;background-position: center;order: 110;
+}                              
+.item10{
+    background-image: url(../fichier/Pubg--360--UC-.jpg);background-size: 150px 200px;background-position: center;order: 120;
+}                              
+.item11{
+    background-image: url(../fichier/Pubg--720--UC-.jpg);background-size: 150px 200px;background-position: center;order: 130;
+}      
+
+                                        /* COD MOB */
+.item12{
+    background-image: url(../fichier/COD--80--CP-.jpg);background-size: 150px 200px;background-position: center;order: 140;
+}                              
+.item13{
+    background-image: url(../fichier/COD--420--CP-.jpg);background-size: 150px 200px;background-position: center;order: 150;
+}                              
+.item14{
+    background-image: url(../fichier/COD--880--CP-.jpg);background-size: 150px 200px;background-position: center;order: 160;
+}
+
+                                        /* Valorant */
+.item15{
+    background-image: url(../fichier/Valorant--115--VP-.jpg);background-size: 150px 200px;background-position: center;order: 170;
+}                              
+.item16{
+    background-image: url(../fichier/Valorant--485--VP-.jpg);background-size: 150px 200px;background-position: center;order: 180;
+}                              
+.item17{
+    background-image: url(../fichier/Valorant--925--VP-.jpg);background-size: 150px 200px;background-position: center;order: 190;
+}   
+
+                                        /* Netflix */
+.item18{
+    background-image: url(../fichier/netflix_icon.png);background-size: 200px 220px;background-position: center;order: 200;
+} 
+
+                                        /* Gamepass */
+.item19{
+    background-image: url(../fichier/gamepas.jpg);background-size: 150px 200px;background-position: center;order: 210;
+}                              
+.item20{
+    background-image: url(../fichier/gamepas.jpg);background-size: 150px 200px;background-position: center;order: 220;
+}                              
+.item33{
+    background-image: url(../fichier/gamepas.jpg);background-size: 150px 200px;background-position: center;order: 221;
+}                              
+.item34{
+    background-image: url(../fichier/gamepas.jpg);background-size: 150px 200px;background-position: center;order: 222;
+} 
+.item21{
+    background-image: url(../fichier/gamepas.jpg);background-size: 150px 200px;background-position: center;order: 230;
+}                              
+ 
+                                        /* PS PLUS */
+.item22{
+    background-image: url(../fichier/PsPlus.jpg);background-size: 150px 200px;background-position: center;order: 240;
+}                              
+.item23{
+    background-image: url(../fichier/PsPlus.jpg);background-size: 150px 200px;background-position: center;order: 250;
+}                              
+.item35{
+    background-image: url(../fichier/PsPlus.jpg);background-size: 150px 200px;background-position: center;order: 251;
+}                              
+.item36{
+    background-image: url(../fichier/PsPlus.jpg);background-size: 150px 200px;background-position: center;order: 252;
+}                              
+.item24{
+    background-image: url(../fichier/PsPlus.jpg);background-size: 150px 200px;background-position: center;order: 260;
+}   
+
+                                        /* Canva */
+.item25{
+    background-image: url(../fichier/canva.jpg);background-size: 280px 200px;background-position: center;order: 270;
+}        
+
+                                        /* Crunchyroll */
+.item26{
+    background-image: url(../fichier/crunchyroll.png);background-size: contain;background-position: center;order: 280;
+}                              
+
+                                /* items paragraph */
+
+.items div pre{
+    
+
+    padding-top: 80px;
+    color: transparent;font-size: large;font-weight:900; height: 120px;
+    line-height: 20px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.items div pre:hover{
+    
+    color: white;
+    transition: 1s;
+}
+
+
+
+                                            /*   items hover   */
+
+.item1:hover{background-image: url(../fichier/epicgames.png);}                                            
+.item29:hover{background-image: url(../fichier/rockstar.png);}                                            
+.item30:hover{background-image: url(../fichier/Steam.png);}  
+
+.item2:hover{background-image: url(../fichier/rockstar.png);}                                            
+.item31:hover{background-image: url(../fichier/Steam.png);} 
+
+.item3:hover{background-image: url(../fichier/Steam.png);} 
+.item32:hover{background-image: url(../fichier/epicgames.png);} 
+
+
+
+
+
+
+
+
+                                               /* All items */
+
+ .item1 , .item2 , .item3 , .item4 , .item5 , .item6 , .item7 , .item8 , .item9 , .item10 , .item11 , .item12 , .item13 , .item14 ,
+  .item15 , .item16 , .item17 , .item18 , .item19 , .item20 , .item21 , .item22 , .item23 , .item24 , .item25 , .item26 , .item27 ,
+   .item28 , .item29 , .item30 , .item31 , .item32 , .item33 , .item34 , .item35 , .item36{
+    translate: 0px 20px;
+    transition: .5s;
+    background-repeat: no-repeat;
+    
+}
+
+::selection{
+    background-color: transparent;
+    color: rgb(13, 250, 64);
+}
+
+summary {
+    outline: none;
+    font-size: 1.15em;
+}
+
+
+
+                                            /*       Media           */
+
+
+@media (max-width:400px){
+    .categories{
+        gap: 10px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .taskbar{
+            gap: 0px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 1px;
+        }
+    .items{
+        margin-top:10px;
+    }    
+    
+}

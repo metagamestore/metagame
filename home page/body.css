@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+body{
+    background: #111f2f;
+    padding: 10px;
+    margin: 10px;
+    
+
+    color: white;
+}
+
+.meta{
+    
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+                               
+.ministore{
+    background-image: radial-gradient( circle farthest-corner at 32.7% 82.7%,  rgba(173,0,171,1) 8.3%, rgba(15,51,92,1) 79.4% );
+    padding: 10px;
+    
+    border-radius: 10px 10px 0px 0px;
+
+    line-height: 50px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+                                                                    /*      body          */
+
+
+             /****************/                               /*items Games*/                           /*****************/
+.itemsG{
+    padding: 10px;
+    
+    border-radius: 10px 10px 0px 0px;
+
+    line-height: 50px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 40px;
+    
+ }
+
+                                         /* items games background*/
+
+.itemsG .item1{
+    background-image: url(../fichier/Grand_Theft_Auto_V.png);background-size: 150px 200px;background-position: center;order: 1;
+}
+.itemsG .item2{
+    background-image: url(../fichier/reddead.png);background-size: 150px 200px;background-position: center;order: 2;
+}
+.itemsG .item3{
+    background-image: url(../fichier/fifa-23.png);background-size: 150px 200px;background-position: center;order: 3;
+}
+.itemsG .item4{
+    background-image: url(../fichier/Fortnite_S1.png);background-size: 150px 200px;background-position: center;order: 4;
+}
+.itemsG .item5{
+    background-image: url(../fichier/pubg.png);background-size: 150px 200px;background-position: center;order: 5;
+}
+.itemsG .item6{
+    background-image: url(../fichier/COD_Mobile.jpg);background-size: 150px 200px;background-position: center;order: 6;
+}
+.itemsG .item7{
+    background-image: url(../fichier/Valorant.png);background-size: 180px 80px;background-position: center;order: 7;
+}
+
+
+                                /* items games div */
+
+.itemsG div{
+    border: 1px white solid;
+    margin: 0px 30px;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    height: 200px;width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+}
+.itemsG div:hover{
+    background-size: 150px 150px;background-repeat: no-repeat;background-position: 0px -30px;
+    float: left;
+    translate: 0px -20px;
+    transition: .5s;
+    scale: 1.2;
+}
+
+                                /* items games paragraph */
+
+.itemsG div pre{
+    
+
+    padding-top: 80px;
+    color: transparent;font-size: large;font-weight:900; height: 120px;
+    line-height: 30px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.itemsG div pre:hover{
+    
+    color: white;
+
+}
+
+
+
+                 /**********/                           /*           items abonnment               */                             /**********/
+.itemsA{
+    padding: 10px;
+    padding-bottom: 60px;
+    border-radius: 0px 0px 10px 10px;
+    
+    line-height: 50px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    row-gap: 30px;
+ }
+
+                                        /* items abonnement background*/
+
+
+.itemsA .item1{
+    background-image: url(../fichier/netflix_icon.png);background-size: 200px 220px;background-position: center;order: 5;
+}
+.itemsA .item2{
+    background-image: url(../fichier/xbox.png);background-size: 120px 140px;background-position: center;order: 1;
+}
+.itemsA .item3{
+    background-image: url(../fichier/ps4.png);background-size: 150px 200px;background-position: center;order: 3;
+}
+.itemsA .item4{
+    background-image: url(../fichier/gamepas.jpg);background-size: 150px 200px;background-position: center;order: 2;
+}
+.itemsA .item5{
+    background-image: url(../fichier/PsPlus.jpg);background-size: 260px 200px;background-position: center;align-self: flex-end;order: 4;
+}
+.itemsA .item6{
+    background-image: url(../fichier/canva.jpg);background-size: 280px 200px;background-position: center;order: 6;
+}
+.itemsA .item7{
+    background-image: url(../fichier/crunchyroll.png);background-size: contain;background-position: center;order: 7;
+}
+
+                                               /* items games div */  
+
+.itemsA div{
+    border: 1px white solid;
+    margin: 0px 30px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    height: 200px;width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    
+}
+.itemsA div:hover{
+    background-size: 150px 150px;background-repeat: no-repeat;background-position: 0px -30px;
+    float: left;
+    translate: 0px -20px;
+    transition: .5s;
+    scale: 1.2;
+}
+
+                                /*items abonnment paragraph*/
+
+.itemsA div pre{
+    
+
+    padding-top: 80px;
+    color: transparent;font-size: large;font-weight:900; height: 120px;
+    line-height: 30px;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.itemsA div pre:hover{
+    
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    /* All items*/
+
+.item1 , .item2 , .item3 , .item4 , .item5 , .item6 , .item7 , asd:hover{
+    translate: 0px 20px;
+    transition: .5s;
+    background-repeat: no-repeat;
+    
+}
+
+::selection{
+    background-color: transparent;
+    color: rgb(13, 250, 64);
+}
+
+h2{
+    font-family: "Sen", sans-serif;
+    font-size: xx-large;
+}
+
+
+                        /*    Media   */
+                        
+
+@media (max-width:400px) {
+    
+         .taskbar{
+            gap: 0px;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            line-height: 10px;
+    
+    }
+        .meta{
+               height: 300px;
+
+    }
+
+        .game{
+    
+            
+              font-size: 30px;
+          
+    }    
+    .taskbar{
+        margin: 1px;
+    } 
+    
+}                            
+
+@media screen and (min-width:400px) and (max-width:598px){
+    .taskbar{
+      
+        line-height: 10px;
+
+    }
+    .meta{
+        height: 300px;
+    
+        }
+    
+    .game{
+        
+        
+            font-size: 30px;
+            
+            
+            
+            
+    }
+    
+    
+    
+}
+@media (min-width:599px) and (max-width:790px){
+    .meta{
+    height: 450px;
+
+    }
+
+   
+    .wtys{
+        align-self: self-end;
+    }
+
+}

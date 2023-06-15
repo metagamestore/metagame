@@ -1,0 +1,106 @@
+
+body{
+    background: #111f2f;
+    padding: 10px;
+    margin: 0px;
+    
+    
+    color: white;
+}
+.welcome{
+    background: #111f2f;
+    
+    
+}
+.taskbar{
+   
+    font-family: "Sen", sans-serif;
+    
+   
+    border:  2px double rgb(7, 105, 253) ;
+
+    background: linear-gradient(135deg,rgb(0,19,41) 0%,rgb(29,49,73) 100%);
+    padding: 10px;
+    margin: 10px;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+@media (min-width:400px) and (max-width:598px){
+    .taskbar{
+        gap: 0px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    
+}
+
+
+.taskbar p:hover{
+    color: rgb(58, 250, 10);
+    
+    transition: .5s;
+    scale: 1.5;
+    
+}
+h1 {
+    
+    text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgb(13, 175, 216);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	
+	
+    font: 700 30px "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+      background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: transparent;
+	  animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	  transform: translate3d(0,0,0);
+	  backface-visibility: hidden;
+
+  }
+
+
+/* Animate Background Image */
+
+@keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+.p1 , .p2 , .p3 , .p4{
+    align-self: center;
+    transition: .5s;
+}
+
+.logo{
+    width: 250px;
+    
+   
+}
